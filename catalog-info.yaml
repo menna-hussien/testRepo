@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: testRepo
+  annotations:
+    github.com/project-slug: menna-hussien/testRepo
+spec:
+  type: other
+  lifecycle: unknown
+  owner: re-use-global
